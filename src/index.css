@@ -1,0 +1,116 @@
+:root {
+  --civ-blue: #0066cc;
+  --civ-gold: #ffd700;
+  --civ-dark-blue: #004c99;
+  --civ-light-gold: #ffe44d;
+  --background-color: #f5f5f5;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--civ-dark-blue);
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: var(--civ-blue);
+  color: white;
+  border: 2px solid var(--civ-gold);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--civ-dark-blue);
+  border-color: var(--civ-light-gold);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  border-color: #999999;
+  cursor: not-allowed;
+}
+
+input, select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  border-top: 4px solid var(--civ-blue);
+}
+
+.header {
+  background-color: var(--civ-blue);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 4px solid var(--civ-gold);
+}
+
+.header h1 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.info-box {
+  background-color: #e6f3ff;
+  border-left: 4px solid var(--civ-blue);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: #388e3c;
+  background-color: #e8f5e9;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+} 
