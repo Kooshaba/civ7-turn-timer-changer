@@ -261,8 +261,9 @@ function App() {
       </div>
       
       <footer className="footer">
-        <p>Civilization 7 Turn Timer Utility &copy; {new Date().getFullYear()}</p>
+        <p>Civilization 7 Turn Timer Utility by <a href="https://github.com/kooshaba">kooshaba</a> &copy; {new Date().getFullYear()}</p>
         <p>This tool is not affiliated with or endorsed by 2K Games or Firaxis Games.</p>
+        <p>Licensed under the MIT License.</p>
       </footer>
     </div>
   )
